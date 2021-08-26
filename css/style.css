@@ -38,14 +38,14 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	background-color: #333;
-	padding-top: 10px;
+	padding-top: 5px;
 
 }
 footer p {
 	color: #aaa;
-	font-size: 5mm;
+	font-size: 4mm;
 }
 .bio li {
 	font-size: 15px;
