@@ -30,6 +30,7 @@ section {
 }
 
  .text {
+ 	font-size: 15px;
  	color: darkgrey;
  	font-family: serif;
  	font-style: italic;
