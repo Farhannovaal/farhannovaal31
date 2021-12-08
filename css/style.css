@@ -28,20 +28,7 @@ section {
 	background-color: #eee;
 	padding-bottom: 10px;
 }
-.carousel-indicators{
-    background-color: blue;
-    border-radius: 10px;
-}
-.carousel-inner{
-    padding: 20px;
-}
-.carousel-inner img{
-    border-radius: 20px;
-}
-.carousel-item{
-    height: 400px;
-    padding-bottom: 30px;
-}
+
 
  .text {
  	font-size: 15px;
@@ -134,7 +121,6 @@ body {
 	animation: slideDown .5s .5s forwards;
 }
 
-}
 
 
 .overlay:target .next, 
