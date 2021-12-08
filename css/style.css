@@ -28,6 +28,20 @@ section {
 	background-color: #eee;
 	padding-bottom: 10px;
 }
+.carousel-indicators{
+    background-color: blue;
+    border-radius: 10px;
+}
+.carousel-inner{
+    padding: 20px;
+}
+.carousel-inner img{
+    border-radius: 20px;
+}
+.carousel-item{
+    height: 400px;
+    padding-bottom: 30px;
+}
 
  .text {
  	font-size: 15px;
@@ -129,8 +143,6 @@ body {
 }
 
 
-
-
 /* animation */
 
 @keyframes aja {
@@ -167,9 +179,25 @@ body {
  } 
 
 .prev,.next {
-	color: white;
-	background-color: black;
-	text-shadow: 1px 1px 2px black;
-	text-decoration: none;
-	font-size: 10px;
+		color: black;
+		font-style: oblique;
+		font-weight: bold;
+		background-color:  orangered;
+		box-shadow: 2px 2px 2px black;
+		text-decoration: none;
+		font-size: 20px;
+		border-radius: 5px;
+}
+@media(max-width: 768px){
+
+	.prev,.next {
+		color: black;
+		font-style: oblique;
+		font-weight: bold;
+		background-color:  orangered;
+		box-shadow: 2px 2px 2px black;
+		text-decoration: none;
+		font-size: 15px;
+		border-radius: 5px;
+	}
 }
